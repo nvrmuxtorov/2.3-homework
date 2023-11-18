@@ -18,6 +18,17 @@ a{
 li{
     list-style: none;
 }
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.allpadgewidth{
+    width: 1600px;
+    padding: 0 0 0 215px;
+
+}
+/* header section started */
 header{
     width: 100%;
     display: flex;
@@ -131,3 +142,90 @@ font-family: Gilroy-light;
 font-size: 18px;
 font-weight: 500;
 }
+/* header section ended */
+/* main section started */
+.main .allpadgewidth{
+    position: relative;
+    margin-top: 169px;
+    display: flex;
+    gap:29.85px;
+    height: 704px;
+    overflow: hidden;
+}
+.main .allpadgewidth .container_left{
+ margin-top: 98px;
+    width: 616.555px;
+}
+.main .allpadgewidth .container_left .curve{
+    position: absolute;
+    z-index: 1;
+    top: 490px;
+    right: 1000px;
+}
+.main .allpadgewidth .container_left h1{
+    color: #374A3D;
+font-family: Fredoka;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px; /* 105.556% */
+font-variant: small-caps;
+}
+.main .allpadgewidth .container_left p{
+    color: #707070;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+/* font-variant: small-caps; */
+margin: 38.77px 70.02px 40.6px 0;
+}
+.main .allpadgewidth .container_left .buy_btn{
+    width: 179.785px;
+height: 67.112px;
+border: #0CA941 2px solid;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6.27px;
+transition: all .4s linear;
+}
+.main .allpadgewidth .container_left .buy_btn:hover{
+    background-color: #0CA941;
+}
+.main .allpadgewidth .container_left .buy_btn:hover span{
+    color: #FFF;
+}
+.main .allpadgewidth .container_left .buy_btn span{
+    color: #374A3D;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px; /* 100% */
+}
+.main .allpadgewidth .container_right{
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+}
+.main .allpadgewidth .container_left h1 span{
+    color: #0CA941;
+}
+.main .allpadgewidth .circle{
+    width: 514.186px;
+height: 514.186px;
+flex-shrink: 0;
+border-radius: 514.186px;
+background: rgba(83, 195, 81, 0.33);
+filter: blur(184px);
+position: absolute;
+z-index: 0;
+top: 547px;
+right: 273px;
+}
+/* main section ended */
+/* overall section  started */
+
+/* overall section  ended */
