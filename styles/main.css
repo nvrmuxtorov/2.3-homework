@@ -227,5 +227,192 @@ right: 273px;
 }
 /* main section ended */
 /* overall section  started */
+.overall .allpadgewidth {
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+}
+.overall .allpadgewidth .circle{
+    width: 466.624px;
+height: 466.624px;
+flex-shrink: 0;
+border-radius: 466.624px;
+background: rgba(255, 233, 120, 0.33);
+filter: blur(184px);
+position: absolute;
+left: -100px;
+top: -82.6px;
+}
+.overall .allpadgewidth .cactus{
+    position: absolute;
+    z-index: 1;
+    top: -198.94px;
+    left: 635px;
+}
+.overall .allpadgewidth .container{
+    width: 1170px;
+height: 234.679px;
+flex-shrink: 0;
+border-radius: 28px;
+background: #FFF;
+box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.13);
+margin-top: 84px;
+z-index: 1;
+padding:48px 39px  39px 151px;
+display: flex;
+align-items: center;
+position: relative;
+}
+.overall .allpadgewidth .container .flower {
+    position: absolute;
+    z-index: 2;
+    top: -88px;
+    left: -121px;
+}
+.overall .allpadgewidth .container .text{
+    width: 310.991px;
+}
+.overall .allpadgewidth .container h3{
+    color: #374A3D;
+font-family: Fredoka ;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+ line-height: 35px; /*133.333% */
+}
+.overall .allpadgewidth .container p{
+    color: #5B7262;
+font-family: Gilroy-light;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin-top: 9.13px;
+}
+.overall .allpadgewidth .container .project .clip{
+background: url(../images/clip.svg ) ;
+display: flex;
+align-items: center;
+width: 83.133px;
+height: 72.647px;
 
+}
+.overall .allpadgewidth .container .project {
+    width: 161.411px;
+    margin-left: 84px;
+}
+.overall .allpadgewidth .container .practise{
+    margin-left: 65px;
+}
+.overall .allpadgewidth .container .group{
+    margin-left: 50px;
+}
+.overall .allpadgewidth .container .project .clip  span{
+    color: #0CA941;
+position: absolute;
+font-family: Gilroy;
+font-size: 60px;
+font-weight: 800;
+line-height: 42px; /* 70% */
+font-variant: small-caps;
+z-index: 2;
+}
+.overall .allpadgewidth .container .project .clip p{
+    color: #678570;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+font-variant: small-caps;
+}
 /* overall section  ended */
+/* pro_gardener section started */
+.pro_gardener .allpadgewidth{
+ display: flex;
+ align-items: center;
+margin-top: 185px;
+position: relative;
+margin-bottom: 88px;
+}
+.pro_gardener .allpadgewidth .circle{
+    width: 514.186px;
+height: 514.186px;
+flex-shrink: 0;
+border-radius: 514.186px;
+background: rgba(83, 195, 81, 0.33);
+filter: blur(184px);
+position: absolute;
+left: 74px;
+}
+.pro_gardener .allpadgewidth .small_circle{
+    width: 354.961px;
+height: 354.961px;
+border-radius: 354.961px;
+background: rgba(255, 233, 120, 0.33);
+filter: blur(184px);
+position: absolute;
+left: 534px;
+bottom: -9px;
+}
+.pro_gardener .allpadgewidth .container_left{
+    position: absolute;
+    top: -55px;
+}
+.pro_gardener .allpadgewidth .container_right{
+    width: 457.917px;
+    position: relative;
+margin-left: 694px;
+}
+.pro_gardener .allpadgewidth .container_right h3{
+    color: #374A3D;
+font-family: Fredoka;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 122.222% */
+font-variant: small-caps;
+}
+.pro_gardener .allpadgewidth .container_right p{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+font-variant: small-caps;
+margin: 30.58px 0 40.14px 0;
+}
+.pro_gardener .allpadgewidth .container_right button{
+    width: 179.785px;
+height: 67.112px;
+border: #0CA941 2px solid;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7.27px;
+transition: all .4s linear;
+background-color: #FFF;
+}
+.pro_gardener .allpadgewidth .container_right button span{
+    color: #374A3D;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px; /* 100% */
+}
+.pro_gardener .allpadgewidth .container_right button:hover{
+    background-color: #0CA941;
+}
+.pro_gardener .allpadgewidth .container_right button:hover span{
+    color: #FFF;
+}
+.pro_gardener .allpadgewidth .container_right .curve{
+    position: absolute;
+    right: 128px;
+    top: 290px;
+}
+/* pro_gardener section ended */
+/* section service started */
+/* section service ended */
