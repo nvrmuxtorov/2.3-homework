@@ -809,3 +809,92 @@ left: -58px;
 top: 429px;
 }
 /* section  subscribe ended */
+/* footer section started */
+footer .allpadgewidth{
+    display: flex;
+    justify-content: center;
+ margin-top:128px ;
+}
+footer .allpadgewidth .website_speech{
+    width: 300.671px;
+    margin-right: 120.59px;
+}
+footer .allpadgewidth .website_speech .logo{
+    display: flex;
+    align-items: center;
+    gap: 10.02px;
+    margin-bottom: 20px;
+}
+footer .allpadgewidth .website_speech .logo span{
+    color: #374A3D;
+font-family: Gilroy;
+font-size: 32.317px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.203px; /* 102.741% */
+}
+footer .allpadgewidth .website_speech p{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+footer .allpadgewidth .website_speech .social{
+    display: flex;
+    margin-top: 34px;
+;
+}
+footer .allpadgewidth .website_speech .social i{
+    width: 41px;
+height: 39px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+transition: all .4s linear;
+color: #AEBCB0FF;
+}
+footer .allpadgewidth .website_speech .social i:hover{
+    background-color: #0CA941; 
+    border-radius: 20% ;
+}
+footer .allpadgewidth .website_speech .social .bxl-facebook:hover{
+    color: rgb(0, 110, 255);
+}
+footer .allpadgewidth .website_speech .social .bxl-twitter:hover{
+    color: rgb(0, 217, 255);
+}
+footer .allpadgewidth .website_speech .social .bxl-pinterest-alt:hover{
+    color: red;
+}
+footer .allpadgewidth .website_speech .social .bxl-linkedin:hover{
+    color: #FFF;
+}
+footer .allpadgewidth .company{
+    margin-right:120px ;
+}
+footer .allpadgewidth  .more ul p{
+    color: #374A3D;
+font-family: Gilroy;
+font-size: 22px;
+margin-bottom: 20px;
+font-weight: 700;
+line-height: 32px; /* 145.455% */
+}
+footer .allpadgewidth  .more ul li{
+    margin-bottom:3.5px ;
+}
+footer .allpadgewidth  .more ul li a{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px;
+}
+footer .allpadgewidth  .more ul li a:hover{
+    color: #000;
+}
+/* footer section ended */
