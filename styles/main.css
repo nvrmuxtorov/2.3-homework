@@ -580,3 +580,232 @@ margin-top: 13px;
 }
 
 /* section service ended */
+/* section choose started */
+.choose .allpadgewidth {
+    margin-top:268px ;
+    padding: 0 215px;
+}
+.choose .allpadgewidth  h3{
+    color: #374A3D;
+text-align: center;
+font-family: Fredoka;
+font-size: 36px;
+font-weight: 600;
+line-height: 60px; /* 166.667% */
+}
+.choose .allpadgewidth p{
+    color: #678570;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+margin-left: 321px;
+margin-right: 317px;
+}
+.choose .allpadgewidth .container {
+    display: flex;
+    margin-top: 50.96px;
+    gap: 45px;
+}
+.choose .allpadgewidth .container .box{
+    width: 360px;
+height: 437px;
+flex-shrink: 0;
+border-radius: 37px;
+border: 0.5px solid rgba(0, 0, 0, 0.211);
+background: #FFF;
+padding: 31px 36.14px 29.73px 40.14px;
+}
+.choose .allpadgewidth .container .box:hover{
+    box-shadow: 0px 18px  34px 0 rgba(5, 16, 55, 0.15);
+    border-radius:  0;
+    border-color: #0CA941;
+    transition: all .4s linear;
+}
+.choose .allpadgewidth .container .box .plant{
+    margin-left: 57.14px;
+}
+.choose .allpadgewidth .container .box strong{
+    color: #374A3D;
+text-align: center;
+font-family: Fredoka;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px; /* 125% */
+margin-top: 13.68px;
+}
+.choose .allpadgewidth .container .box .star_count{
+    display: flex;
+    align-items: center;
+    gap: 11.98px;
+    margin-top: 8.21px;
+}
+.choose .allpadgewidth .container .box .star_count span{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+}
+.choose .allpadgewidth .container .box .buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-top: 16.06px;
+}
+.choose .allpadgewidth .container .box .buy .price strong{
+    color: #678570;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 12px;
+font-weight: 400;
+/* line-height: 32px; 266.667% */
+}
+.choose .allpadgewidth .container .box .buy .price span{
+    color: #0CA941;
+font-family: Fredoka;
+display: block;
+font-size: 20px;
+font-weight: 700;
+margin-top: -10px;
+}
+.choose .allpadgewidth .container .box .buy button{
+    width: 128.057px;
+height: 43.929px;
+border-radius: 10px;
+border: 0.5px solid rgba(55, 74, 61, 0.36);
+background: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.choose .allpadgewidth .container .box .buy button span{
+    color: #678570;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+transition: all .3s linear;
+}
+.choose .allpadgewidth .container .box .buy button:hover{
+    background-color: #0CA941;
+}
+.choose .allpadgewidth .container .box .buy button:hover span{
+color: #FFF;
+}
+.choose .allpadgewidth .container .box .buy button:active{
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.476);
+}
+/* section choose ended */
+/* section  subscribe started */
+.sunscribe .allpadgewidth {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+}
+.sunscribe .allpadgewidth .container{
+    margin-top: 133px;
+    width: 1170px;
+height: 508.809px;
+border-radius: 19px;
+background: #F8F8F8;
+padding: 95.88px 274px 131px  257px;
+position: relative;
+}
+.sunscribe .allpadgewidth .container h2{
+    color: #374A3D;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 30.58px;
+}
+.sunscribe .allpadgewidth .container p{
+    color: #678570;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.sunscribe .allpadgewidth .container .email_bar{
+    display: flex;
+    align-items: baseline;
+}
+.sunscribe .allpadgewidth .container .email_bar .email{
+    width: 434.21px;
+    height: 81.891px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #0CA941;
+background: #FFF;
+margin-top: 50.03px;
+padding-left: 33px;
+color: #C4C4C4;
+font-family: Gilroy-light;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+
+.sunscribe .allpadgewidth .container .email_bar .email:hover{
+    border: 1px solid #15863b; 
+}
+.sunscribe .allpadgewidth .container .email_bar button{
+    width: 223.418px;
+height: 81.891px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0CA941;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+position: absolute;
+top: 284px;
+left: 670px;
+}
+.sunscribe .allpadgewidth .container .email_bar button:active{
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.27);
+}
+.sunscribe .allpadgewidth .container .email_bar button:hover span{
+    color: #374A3D;
+}
+.sunscribe .allpadgewidth .container .email_bar button span{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+
+}
+.sunscribe .allpadgewidth .circle{
+position: absolute;
+width: 514.186px;
+height: 514.186px;
+flex-shrink: 0;
+border-radius: 514.186px;
+background: rgba(83, 195, 81, 0.33);
+filter: blur(184px);
+left: 1000px;
+}
+.sunscribe .allpadgewidth .ellipse{
+    width: 414.485px;
+height: 414.485px;
+flex-shrink: 0;
+border-radius: 414.485px;
+background: rgba(255, 233, 120, 0.33);
+filter: blur(184px);
+position: absolute;
+left: -58px;
+top: 429px;
+}
+/* section  subscribe ended */
