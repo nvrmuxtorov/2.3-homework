@@ -332,7 +332,7 @@ font-variant: small-caps;
  align-items: center;
 margin-top: 185px;
 position: relative;
-margin-bottom: 88px;
+margin-bottom: 230px;
 }
 .pro_gardener .allpadgewidth .circle{
     width: 514.186px;
@@ -415,4 +415,168 @@ line-height: 18px; /* 100% */
 }
 /* pro_gardener section ended */
 /* section service started */
+.service .allpadgewidth{
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+}
+.service .allpadgewidth .container_left {
+width: 457.917px;
+margin-top: 61px;
+}
+.service .allpadgewidth .container_left h3{
+    color: #374A3D;
+font-family: Fredoka;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 166.667% */
+font-variant: small-caps;
+margin-bottom: 30px;
+}
+.service .allpadgewidth .container_left p{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+}
+.service .allpadgewidth .container_left button{
+    width: 179.785px;
+    height: 67.112px;
+    border: #0CA941 2px solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.27px;
+    transition: all .4s linear;
+    background-color: #FFF;
+    margin-top:40.4px ;
+}
+.service .allpadgewidth .container_left button:hover{
+    background-color: #0CA941;
+}
+.service .allpadgewidth .container_left button:hover span{
+color: #FFF;}
+.service .allpadgewidth .container_left button span{
+    color: #374A3D;
+text-align: center;
+font-family: Gilroy-right;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 100% */
+}
+.service .allpadgewidth .container_left .curve{
+    position: absolute;
+    left: 434px;
+    top: 375px;
+}
+.service .allpadgewidth .container_right {
+    position: relative;
+    margin-left: 106px;
+    display: flex;
+}
+.service .allpadgewidth .container_right .circle{
+    width: 324.988px;
+height: 324.988px;
+border-radius: 324.988px;
+background: rgba(255, 233, 120, 0.33);
+filter: blur(125px);
+position: absolute;
+z-index: 0;
+left: 75px;
+}
+.service .allpadgewidth .container_right .ellipse{
+    position: absolute;
+    z-index: 1;
+    top: 61px;
+    left: 226px;
+}
+.service .allpadgewidth .container_right .green{
+    width: 327.142px;
+    height: 327.142px;
+    flex-shrink: 0;
+    border-radius: 327.142px;
+background: rgba(83, 195, 81, 0.33);
+filter: blur(116px);
+position: absolute;
+top: 159px;
+left: 400px;
+}
+.service .allpadgewidth .container_right .grey{
+    top:233px ;
+    left: 87px;
+}
+.service .allpadgewidth .container_right .vect{
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 473px;
+}
+.service .allpadgewidth .container_right .vector{
+    position: absolute;
+    z-index: 1;
+    top: 334px;
+    left: 199px;
+}
+.service .allpadgewidth .container_right  .box{
+    width: 268.275px;
+height: 264.459px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px 25.41px 18px 25.41px;
+}
+.service .allpadgewidth .container_right  .box .clip{
+background-image: url(../images/art.svg);
+    width: 103.292px;
+height: 90.263px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.service .allpadgewidth .container_right  .box .yellow{
+    background-image: url(../images/clip_yelllow.svg);
+}
+.service .allpadgewidth .container_right  .box strong{
+    color: #374A3D;
+text-align: center;
+font-family: Fredoka;
+font-size: 24px;
+font-weight: 700;
+line-height: 26px; /* 108.333% */
+}
+.service .allpadgewidth .container_right  .box p{
+    color: #678570;
+text-align: center;
+font-family: Gilroy-light;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px; /* 150% */
+margin-top: 13px;
+}
+.service .allpadgewidth .container_right .alone{
+    position: absolute;
+    z-index: 2;
+    top: 132px; 
+}
+.service .allpadgewidth .container_right  .box:hover{
+    box-shadow: 8px 9px 42px 0px rgba(12, 169, 65, 0.12); 
+}
+.service .allpadgewidth .container_right .container {
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 /* section service ended */
