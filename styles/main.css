@@ -39,11 +39,14 @@ header .allpadgewidth{
     background-color: #fff;
 padding: 44.5px 215px 0 215px;
 position: relative;
+display: flex;
+justify-content: space-between;
 }
 header .allpadgewidth .flower{
     position: fixed;
-    left: 32.93px;
     top: 0;
+    transform: translate(-170px, 0);
+    z-index: 33;
 }
 header .allpadgewidth .circle{
     width: 514.186px;
@@ -96,7 +99,7 @@ header .allpadgewidth  nav .navbar{
 }
 header .allpadgewidth  nav .navbar ul{
     display: flex;
-    gap: 3vw;
+    gap: 60px;
 }
 header .allpadgewidth  nav .navbar ul a{
     color: #1D3B53;
@@ -129,6 +132,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: none;
+cursor: pointer;
 }
 header .allpadgewidth  nav .navbar .btn-login:hover span{
     color: #1D3B53;
@@ -190,6 +194,7 @@ justify-content: center;
 align-items: center;
 gap: 6.27px;
 transition: all .4s linear;
+cursor: pointer;
 }
 .main .allpadgewidth .container_left .buy_btn:hover{
     background-color: #0CA941;
@@ -393,6 +398,7 @@ align-items: center;
 gap: 7.27px;
 transition: all .4s linear;
 background-color: #FFF;
+cursor: pointer;
 }
 .pro_gardener .allpadgewidth .container_right button span{
     color: #374A3D;
@@ -454,6 +460,7 @@ line-height: 32px;
     transition: all .4s linear;
     background-color: #FFF;
     margin-top:40.4px ;
+    cursor: pointer;
 }
 .service .allpadgewidth .container_left button:hover{
     background-color: #0CA941;
@@ -532,6 +539,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 30px 25.41px 18px 25.41px;
+cursor: pointer;
 }
 .service .allpadgewidth .container_right  .box .clip{
 background-image: url(../images/art.svg);
@@ -616,10 +624,11 @@ border-radius: 37px;
 border: 0.5px solid rgba(0, 0, 0, 0.211);
 background: #FFF;
 padding: 31px 36.14px 29.73px 40.14px;
+cursor: pointer;
 }
 .choose .allpadgewidth .container .box:hover{
     box-shadow: 0px 18px  34px 0 rgba(5, 16, 55, 0.15);
-    border-radius:  0;
+    border-radius:  5px;
     border-color: #0CA941;
     transition: all .4s linear;
 }
@@ -680,6 +689,7 @@ background: #FFF;
 display: flex;
 justify-content: center;
 align-items: center;
+cursor: pointer;
 }
 .choose .allpadgewidth .container .box .buy button span{
     color: #678570;
@@ -770,6 +780,7 @@ border: none;
 position: absolute;
 top: 284px;
 left: 670px;
+cursor: pointer;
 }
 .sunscribe .allpadgewidth .container .email_bar button:active{
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.27);
@@ -810,14 +821,27 @@ top: 429px;
 }
 /* section  subscribe ended */
 /* footer section started */
-footer .allpadgewidth{
+footer {
     display: flex;
     justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+footer .allpadgewidth{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
  margin-top:128px ;
+ position: relative;
+ overflow: hidden;
+}
+footer .allpadgewidth .more_info{
+    display: flex;
+    justify-content: center; 
 }
 footer .allpadgewidth .website_speech{
     width: 300.671px;
-    margin-right: 120.59px;
+    margin-right: 135.59px;
 }
 footer .allpadgewidth .website_speech .logo{
     display: flex;
@@ -855,6 +879,7 @@ align-items: center;
 font-size: 25px;
 transition: all .4s linear;
 color: #AEBCB0FF;
+cursor: pointer;
 }
 footer .allpadgewidth .website_speech .social i:hover{
     background-color: #0CA941; 
@@ -873,7 +898,7 @@ footer .allpadgewidth .website_speech .social .bxl-linkedin:hover{
     color: #FFF;
 }
 footer .allpadgewidth .company{
-    margin-right:120px ;
+    margin-right:140px ;
 }
 footer .allpadgewidth  .more ul p{
     color: #374A3D;
@@ -896,5 +921,91 @@ line-height: 34px;
 }
 footer .allpadgewidth  .more ul li a:hover{
     color: #000;
+}
+footer .allpadgewidth .info{
+    display: flex;
+    flex-direction: column;
+    width: 206.681px;
+margin-left: 130px;
+margin-right: 150px;
+}
+footer .allpadgewidth .info strong{
+    color: #374A3D;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 145.455% */
+}
+footer .allpadgewidth .info p{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-top: 23px ;
+margin-bottom: 15px;
+}
+footer .allpadgewidth .info p:hover{
+    color: #000;
+}
+footer .allpadgewidth .info a{
+    color: #678570;
+font-family: Gilroy-light;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin-bottom: 15px;
+}
+footer .allpadgewidth .info a:hover{
+    color: #000;
+}
+footer .allpadgewidth .line{
+    width: 1166.384px;
+    height: 1px;
+background-color: #BF7949 ;
+position: absolute;
+z-index: 1;
+top: 333px;
+left: 218px;
+}
+footer .allpadgewidth .flowers{
+    display: flex;
+align-items: flex-start;
+margin-top: 43px;
+}
+footer .allpadgewidth .flowers .long{
+   margin-left:122px ;
+   margin-right: 108px;
+}
+footer .allpadgewidth .flowers .longg{
+    margin-left: 115px;
+margin-right: 139px;
+}
+footer .allpadgewidth .circle{
+    width: 590.55px;
+    height: 590.55px;
+    flex-shrink: 0;
+    border-radius: 590.55px;
+background: rgba(83, 195, 81, 0.33);
+filter: blur(184px);
+position: absolute;
+z-index: 0;
+top: 550px;
+left: -12px;
+}
+footer .allpadgewidth .ellipse{
+    width: 565.905px;
+height: 565.905px;
+flex-shrink: 0;
+border-radius: 565.905px;
+background: rgba(255, 233, 120, 0.33);
+filter: blur(184px);
+position: absolute;
+z-index: 0;
+top: 500px;
+right: 5px;
 }
 /* footer section ended */
